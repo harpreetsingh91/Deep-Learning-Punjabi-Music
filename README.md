@@ -1,5 +1,5 @@
 # Deep-Learning-Punjabi-Music
-This project investigates using features learned by a Convolutional Neural Network trained on Punjabi and Hindi Music
+## This project investigates using features learned by a Convolutional Neural Network trained on Punjabi and Hindi Music
 to generate recommendations for Punjabi Music.
 
 Collaborative filtering has been the system of choice for most music streaming services, but these type of recommendations ignore actual musical content of the songs. For genres like Punjabi music, these systems suffer from lack of historic data and hence recommendation quality is unsatisfactory. In this project, we perform experiments to determine how Convolutional Neural Networks can be used to learn musical features from Indian and specifically Punjabi Music. We investigate using these features to perform content based recommendations. We use mel-spectrograms of the songs to train a CNN on classification tasks and then use the learned weights as a feature extractor for songs.  We investigate the performance of CNNs trained on Western Music and fine-tuned on Punjabi Music and perform a simple user study to understand the quality of recommendations. These experiments demonstrate how features learned on western music can be transferred to learn features for non-western music.
